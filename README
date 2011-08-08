@@ -1,0 +1,9 @@
+This project is a quick example to show how to use AES-256 (Rijndael) encryption functioning between PHP and .NET servers.
+The AES256-C# directory contains a C# web project that can be used to encrypt and decrypt a chunck of text with a salt , passphrase, initialization vector, and keysize
+The AES256-PHP directory contains a single PHP file that uses mcrypt to do the same as above.
+To encrypt:
+Open up either web page, click encrypt and the encryptes text will be generated. Cut/paste that text back into the 'key' field at the top of either page (C# or PHP) and click 'decrypt' to decrypt the textback to the orginal un-encrypted text
+
+Note: I make no warranty on the robustness of this code in terms of how easily it can be cracked.  It is merely an example of how to get encryption working between Windows and linux platforms. I'd encourage anyone with industry encryption experience to make suggestions on how to improve the actual encryption logic.
+
+
